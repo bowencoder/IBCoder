@@ -66,6 +66,8 @@
  
  鸿蒙工程原理：
  Kuikly 鸿蒙端渲染是基于ArkUI C-API 实现，在业务接入时，需要通过 NAPI ，将运行时初始化接口暴露到业务ArkTS层。
+ NAPI：一套让 ArkTS/JS 可以调用 C/C++ 原生代码能力 的接口/机制，用来做“原生扩展”。
+ iOS 的 ObjC interop、Android 的 JNI
  https://kuikly.tds.qq.com/QuickStart/harmony.html
  
  */
