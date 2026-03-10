@@ -62,5 +62,10 @@
  https://github.com/lynx-family/lynx/tree/develop/explorer/darwin/ios
 
  
+ 三、KMP
+ 
+ 鸿蒙工程原理：
+ Kuikly 鸿蒙端渲染是基于ArkUI C-API 实现，在业务接入时，需要通过 NAPI ，将运行时初始化接口暴露到业务ArkTS层。
+ https://kuikly.tds.qq.com/QuickStart/harmony.html
  
  */

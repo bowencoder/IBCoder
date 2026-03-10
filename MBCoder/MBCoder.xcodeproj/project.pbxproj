@@ -332,6 +332,7 @@
 		5440D3112D54EB8500904EB1 /* IBGroup3Controller11.m in Sources */ = {isa = PBXBuildFile; fileRef = 5440D3102D54EB8500904EB1 /* IBGroup3Controller11.m */; };
 		547196222D89536100A95850 /* IBGroup3Controller13.m in Sources */ = {isa = PBXBuildFile; fileRef = 547196212D89536100A95850 /* IBGroup3Controller13.m */; };
 		5476433F2CFFFBB60009FB51 /* IBGroup2Controller33.m in Sources */ = {isa = PBXBuildFile; fileRef = 5476433E2CFFFBB60009FB51 /* IBGroup2Controller33.m */; };
+		5477FFBF2F5FC85600A261E0 /* IBGroup3Controller17.m in Sources */ = {isa = PBXBuildFile; fileRef = 5477FFBE2F5FC85600A261E0 /* IBGroup3Controller17.m */; };
 		548741A62CCA3D8E0088F44D /* IBGroup2Controller31.m in Sources */ = {isa = PBXBuildFile; fileRef = 548741A52CCA3D8E0088F44D /* IBGroup2Controller31.m */; };
 		548741AA2CCA40860088F44D /* MBStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 548741A92CCA40860088F44D /* MBStateMachine.m */; };
 		548741AD2CCA40A10088F44D /* MBEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 548741AC2CCA40A10088F44D /* MBEvent.m */; };
@@ -1177,6 +1178,8 @@
 		547196212D89536100A95850 /* IBGroup3Controller13.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBGroup3Controller13.m; sourceTree = "<group>"; };
 		5476433D2CFFFBB60009FB51 /* IBGroup2Controller33.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBGroup2Controller33.h; sourceTree = "<group>"; };
 		5476433E2CFFFBB60009FB51 /* IBGroup2Controller33.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBGroup2Controller33.m; sourceTree = "<group>"; };
+		5477FFBD2F5FC85600A261E0 /* IBGroup3Controller17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBGroup3Controller17.h; sourceTree = "<group>"; };
+		5477FFBE2F5FC85600A261E0 /* IBGroup3Controller17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBGroup3Controller17.m; sourceTree = "<group>"; };
 		548741A42CCA3D8E0088F44D /* IBGroup2Controller31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBGroup2Controller31.h; sourceTree = "<group>"; };
 		548741A52CCA3D8E0088F44D /* IBGroup2Controller31.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBGroup2Controller31.m; sourceTree = "<group>"; };
 		548741A82CCA40860088F44D /* MBStateMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBStateMachine.h; sourceTree = "<group>"; };
@@ -2753,6 +2756,8 @@
 				543930702F35EECE00C7F0D8 /* IBGroup3Controller15.m */,
 				54B1DB092F3A19EE000E7079 /* IBGroup3Controller16.h */,
 				54B1DB0A2F3A19EE000E7079 /* IBGroup3Controller16.m */,
+				5477FFBD2F5FC85600A261E0 /* IBGroup3Controller17.h */,
+				5477FFBE2F5FC85600A261E0 /* IBGroup3Controller17.m */,
 			);
 			path = vc1;
 			sourceTree = "<group>";
@@ -3422,6 +3427,7 @@
 				540459BD2D799D2F009CBCE8 /* math.c in Sources */,
 				4ACBB8D72341FA0D002D7955 /* RACDelegateProxy.m in Sources */,
 				54EAECC12D3FA2BF00D893D3 /* JPCGPath.m in Sources */,
+				5477FFBF2F5FC85600A261E0 /* IBGroup3Controller17.m in Sources */,
 				4ACBB87A2341FA0D002D7955 /* IBController2.m in Sources */,
 				54EAECBF2D3FA2BF00D893D3 /* JPCGGeometry.m in Sources */,
 				4ACBB88B2341FA0D002D7955 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
