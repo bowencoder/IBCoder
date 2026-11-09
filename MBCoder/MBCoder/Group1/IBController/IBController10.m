@@ -106,7 +106,7 @@
        union { objc_object **referrers; struct { ... } inline_referrers; };
    };
 
- 3. 查找路径：SideTablesMap → SideTable（对象地址哈希）→ weak_table_t(对象地址) → weak_entry_t → weak 指针地址列表
+ 3. 查找路径：SideTablesMap → SideTable（对象地址）→ weak_table_t(对象地址哈希) → weak_entry_t → weak 指针地址列表
  
  4. weak对象销毁完整流程的锁视角：
  第一次定位 SideTable 不需要锁,因为 SideTables 是程序启动时分配的固定大小静态数组,运行期间结构完全不变,定位操作仅仅是位运算 + 数组下标访问,没有任何数据读写。
