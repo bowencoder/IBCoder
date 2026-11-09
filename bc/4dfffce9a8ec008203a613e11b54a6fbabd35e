@@ -1,0 +1,29 @@
+MBCoder/MBCoder/other/AppDelegate.m
+  s_d6868d5f7b7a9e::t_14f84739bff95f 17,26
+MBCoder/MBCoder/other/SceneDelegate.m
+  s_d6868d5f7b7a9e::t_f95b392f40b68a 1-70
+MBCoder/Podfile
+  s_d6868d5f7b7a9e::t_aec9dc1ba98c47 1,38-50
+MBCoder/Podfile.lock
+  s_d6868d5f7b7a9e::t_a39f5b497598f6 194
+MBCoder/Pods/Manifest.lock
+  s_d6868d5f7b7a9e::t_c7e6dcbaa69c9f 194
+MBCoder/Pods/Pods.xcodeproj/project.pbxproj
+  s_d6868d5f7b7a9e::t_0c52ee23b44ace 8645,8669,8692,8716,8740,8763,8786,8810,8833,8857,8881,8950,8971,8995,9020,9044,9068,9091,9115,9138,9162,9186,9209,9233,9257,9280,9346,9366,9389,9412,9437,9458,9484,9508,9532,9555,9579,9599,9622,9645,9669,9694,9717,9742,9764,9787,9811,9835,9859,9883,9906,9930,9955,9978,10003,10024
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bc4dfffce9a8ec008203a613e11b54a6fbabd35e",
+  "prompts": {},
+  "sessions": {
+    "s_d6868d5f7b7a9e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1be4e-1d9c-74e0-a67a-0f087ec13653",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "正北飞 <1214569257@qq.com>"
+    }
+  }
+}
