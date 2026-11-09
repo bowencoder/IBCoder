@@ -289,6 +289,7 @@
 		4ACBB94A2341FA0D002D7955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBB84E2341FA0D002D7955 /* Main.storyboard */; };
 		4ACBB94B2341FA0D002D7955 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB8502341FA0D002D7955 /* main.mm */; };
 		4ACBB94C2341FA0D002D7955 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB8512341FA0D002D7955 /* AppDelegate.m */; };
+		D2107FA13A3B43A4BDEAB338 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2107FA03A3B43A4BDEAB338 /* SceneDelegate.m */; };
 		4ACBB950234201DA002D7955 /* PromiseFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB94F234201DA002D7955 /* PromiseFoundation.swift */; };
 		4ACBB9542342068A002D7955 /* RACTestScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB73B2341FA0C002D7955 /* RACTestScheduler.m */; };
 		4ACBB95A234D845F002D7955 /* IBGroup2Controller9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB959234D845F002D7955 /* IBGroup2Controller9.m */; };
@@ -1040,6 +1041,7 @@
 		4ACBB84F2341FA0D002D7955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ACBB8502341FA0D002D7955 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		4ACBB8512341FA0D002D7955 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2107FA03A3B43A4BDEAB338 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4ACBB8522341FA0D002D7955 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ACBB8532341FA0D002D7955 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4ACBB94E2341FB0F002D7955 /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
@@ -2388,6 +2390,7 @@
 				4A9D29AD236966A4006B9771 /* 1004.m4a */,
 				4ACBB8492341FA0D002D7955 /* AppDelegate.h */,
 				4ACBB8512341FA0D002D7955 /* AppDelegate.m */,
+				D2107FA03A3B43A4BDEAB338 /* SceneDelegate.m */,
 				4ACBB84A2341FA0D002D7955 /* Assets.xcassets */,
 				4ACBB8522341FA0D002D7955 /* Info.plist */,
 				4ACBB84C2341FA0D002D7955 /* LaunchScreen.storyboard */,
@@ -3405,6 +3408,7 @@
 				4ACBB89C2341FA0D002D7955 /* UITableViewHeaderFooterView+RACSignalSupport.m in Sources */,
 				54EAECCB2D3FA2BF00D893D3 /* JPDevMenu.m in Sources */,
 				4ACBB94C2341FA0D002D7955 /* AppDelegate.m in Sources */,
+				D2107FA13A3B43A4BDEAB338 /* SceneDelegate.m in Sources */,
 				4ACBB8F92341FA0D002D7955 /* AFURLResponseSerialization.m in Sources */,
 				F3A3E330238C441200925ACC /* IBGroup2Controller19.m in Sources */,
 				541E82D82CC1374B00755059 /* quickjs-libc.c in Sources */,
@@ -3851,7 +3855,7 @@
 					"$(PODS_ROOT)/SQLCipher",
 				);
 				INFOPLIST_FILE = MBCoderUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3904,7 +3908,7 @@
 					"$(PODS_ROOT)/SQLCipher",
 				);
 				INFOPLIST_FILE = MBCoderUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3971,7 +3975,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4024,7 +4028,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -4086,7 +4090,7 @@
 					"$(SRCROOT)/MBCoder/IBModule/JSPatch/Extensions/JPCFunction/libffi/darwin_ios/include",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/MBCoder/other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4295,7 +4299,7 @@
 					"$(SRCROOT)/MBCoder/IBModule/JSPatch/Extensions/JPCFunction/libffi/darwin_ios/include",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/MBCoder/other/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
