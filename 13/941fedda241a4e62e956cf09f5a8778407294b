@@ -1,0 +1,20 @@
+MBCoder/MBCoder/Group1/IBController/IBController11.m
+  s_2c04be92c3ac4d::t_f1645b7429a6d8 20,23-24,27,31-32,36,39,41-42,54-55,59-75,77,84-85,90,94,96-97,99,104,107-110,117-118,131,145,149-151,153
+  s_2c04be92c3ac4d::t_c0ceedfce4867b 34,47,79-80,82-83,91,101,105,132,135-136,139,142,148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "13941fedda241a4e62e956cf09f5a8778407294b",
+  "prompts": {},
+  "sessions": {
+    "s_2c04be92c3ac4d": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ca92-36c4-7e51-a321-6792685f320b",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "正北飞 <1214569257@qq.com>"
+    }
+  }
+}
