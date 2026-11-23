@@ -68,10 +68,11 @@
 
  【方案一：cornerRadius + masksToBounds（test1）】
  实现：layer.cornerRadius = r; layer.masksToBounds = YES;
+ 圆角定制：view.layer.maskedCorners = kCALayerMinXMinYCorner | kCALayerMaxXMinYCorner;
  离屏渲染：
    - 纯色背景 + 圆角（iOS 9+）：不触发，系统优化处理
    - 图片/渐变/多层叠加 + masksToBounds：触发离屏渲染
- 优点：代码简单
+ 优点：代码简单，不需要动态更新frame
  缺点：复合图层场景下触发离屏渲染，频繁滚动时 GPU 压力大
 
  【方案二：Core Graphics + UIBezierPath（test2）】
@@ -84,7 +85,7 @@
  实现：创建 CAShapeLayer 设置圆角路径，赋给 layer.mask
  离屏渲染：触发（layer.mask 本质触发离屏合成）
  优点：灵活，可实现任意形状（只裁剪某几个角）
- 缺点：仍触发离屏渲染，内存占用较高（mask 层额外占用）
+ 缺点：仍触发离屏渲染，内存占用较高（mask 层额外占用），视图尺寸变化时需同步更新蒙版的 frame 和 path
 
  【方案四：预渲染（推荐方案）】
  实现：图片加载完成后，在子线程用 Core Graphics 绘制圆角，主线程赋值
